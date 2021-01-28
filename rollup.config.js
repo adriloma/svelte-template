@@ -4,7 +4,6 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
-import css from 'rollup-plugin-css-only';
 
 const svelteConfig = require('./svelte.config.js');
 const postCssConfig = require('./postcss.config.js');
@@ -43,7 +42,7 @@ export default {
 		svelte(svelteConfig),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
-		css({ output: 'bundle.css' }),
+		// css({ output: 'bundle.css' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
