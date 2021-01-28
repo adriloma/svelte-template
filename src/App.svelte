@@ -10,7 +10,6 @@ onMount (async () => {
 })
 
 async function loadPokemon() {
-	debugger;
 	const pokeToLoad = pokemonList.results[selected];
 	const response = await fetch(pokeToLoad.url);
 	activePokemon = await response.json();
