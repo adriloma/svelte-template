@@ -2,7 +2,7 @@ import App from './App.svelte';
 import { render, fireEvent } from '@testing-library/svelte';
 import '@testing-library/jest-dom';
 
-it('it works', async () => {
+xit('it works', async () => {
     const { getByText, getByTestId } = render(App);
     const increment = getByText('+');
     const decrement = getByText('-');
