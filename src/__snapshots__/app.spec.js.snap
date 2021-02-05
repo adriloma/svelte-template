@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<body>
+  <div>
+    <main>
+      <h1>
+        Hello 
+        Adrián
+        !
+      </h1>
+       
+      <p>
+        Visit the 
+        <a
+          href="https://svelte.dev/tutorial"
+        >
+          Svelte tutorial
+        </a>
+         to learn how to build Svelte apps.
+      </p>
+       
+      <p>
+        You can play with the counter: 
+        <span
+          data-testid="counter"
+        >
+          0
+        </span>
+      </p>
+       
+      <button>
+        +
+      </button>
+       
+      <button>
+        -
+      </button>
+       
+      <button>
+        Reset
+      </button>
+    </main>
+  </div>
+</body>
+`;

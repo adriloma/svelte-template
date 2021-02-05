@@ -18,16 +18,16 @@
     "jest": "^26.6.3",
     "postcss": "^8.2.4",
     "postcss-preset-env": "^6.7.0",
-    "rollup": "^2.3.4",
+    "rollup": "^2.38.3",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-postcss": "^4.0.0",
-    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.0.0",
-    "svelte-jester": "^1.3.0",
-    "svelte-preprocess": "^4.6.1"
+    "svelte": "^3.32.1",
+    "@oat-sa/jest-transform-svelte": "oat-sa/jest-transform-svelte#fix/TRN-28/run-jest-with-node-above-10",
+    "svelte-preprocess": "^4.6.5"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.11"
   }
 }
